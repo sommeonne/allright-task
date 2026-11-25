@@ -1,0 +1,4 @@
+# Run package scripts and their tools (playwright, eslint, tsc) on Bun itself,
+# not on Node, even though their launchers say "#!/usr/bin/env node".
+[run]
+bun = true

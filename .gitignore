@@ -1,0 +1,14 @@
+node_modules/
+playwright-report/
+test-results/
+blob-report/
+.env
+*.tsbuildinfo
+.claude/settings.local.json
+.playwright-mcp/
+
+# local scratch notes; AI_WORKLOG.md is written from them
+docs/worklog-notes.md
+
+# output of pipeline runs
+pipeline/runs/

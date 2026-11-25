@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "bunx",
+      "args": [
+        "--bun",
+        "@playwright/mcp@0.0.86",
+        "--browser",
+        "chromium",
+        "--headless",
+        "--isolated",
+        "--test-id-attribute",
+        "data-test"
+      ]
+    }
+  }
+}
